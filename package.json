@@ -1,0 +1,23 @@
+{
+  "name": "babel-es6-shim",
+  "version": "0.0.1",
+  "description": "ES6 shim for Babel that only includes standardised features",
+  "scripts": {
+    "prepublish": "gulp build",
+    "postpublish": "gulp clean"
+  },
+  "author": "Jason Berry <jason@thevagabond.net>",
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "^0.8.1",
+    "regenerator-babel": "^0.8.13-2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.7",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-uglify": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

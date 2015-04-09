@@ -15,6 +15,13 @@
     "shim",
     "polyfill"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JasonBerry/babel-es6-polyfill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JasonBerry/babel-es6-polyfill/issues"
+  },
   "dependencies": {
     "core-js": "^0.8.1",
     "regenerator-babel": "^0.8.13-2"

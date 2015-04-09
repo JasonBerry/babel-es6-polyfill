@@ -1,6 +1,6 @@
 {
   "name": "babel-es6-polyfill",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A pure ES6 polyfill for Babel that only includes standardised features",
   "scripts": {
     "prepublish": "gulp build",

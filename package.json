@@ -8,6 +8,13 @@
   },
   "author": "Jason Berry <jason@thevagabond.net>",
   "license": "MIT",
+  "keywords": [
+    "es6",
+    "ecmascript 6",
+    "babel",
+    "shim",
+    "polyfill"
+  ],
   "dependencies": {
     "core-js": "^0.8.1",
     "regenerator-babel": "^0.8.13-2"

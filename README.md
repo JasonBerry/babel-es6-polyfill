@@ -1,5 +1,5 @@
-# babel-es6-shim
-A pure ES6 shim for [Babel](https://github.com/babel/babel) that only includes standardised features
+# babel-es6-polyfill
+A pure ES6 polyfill for [Babel](https://github.com/babel/babel) that only includes standardised features
 
 ## Why?
 You may prefer to use this polyfill if:
@@ -10,9 +10,9 @@ You may prefer to use this polyfill if:
 
 ## Installation
 ```sh
-$ npm install babel-es6-shim --save
+$ npm install babel-es6-polyfill --save
 ```
 
 ## How to use the Polyfill
-This polyfill is intended for browser usage only. The `browser-polyfill.js` provided by `babel-es6-shim` should be used instead of the `browser-polyfill.js` file you'd ordinarily use from `babel-core`. Usage details are the same as Babel's [Usage in Browser](https://babeljs.io/docs/usage/polyfill/#usage-in-browser) docs:
+This polyfill is intended for browser usage only. The `browser-polyfill.js` provided by `babel-es6-polyfill` should be used instead of the `browser-polyfill.js` file you'd ordinarily use from `babel-core`. Usage details are the same as Babel's [Usage in Browser](https://babeljs.io/docs/usage/polyfill/#usage-in-browser) docs:
 > This needs to be included **before** all your compiled Babel code. You can either prepend it to your compiled code or include it in a `<script>` before it.

@@ -1,7 +1,7 @@
 {
-  "name": "babel-es6-shim",
+  "name": "babel-es6-polyfill",
   "version": "0.0.1",
-  "description": "A pure ES6 shim for Babel that only includes standardised features",
+  "description": "A pure ES6 polyfill for Babel that only includes standardised features",
   "scripts": {
     "prepublish": "gulp build",
     "postpublish": "gulp clean"

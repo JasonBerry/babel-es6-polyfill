@@ -6,17 +6,23 @@ var buffer = require('vinyl-buffer');
 var del = require('del');
 var browserify = require('browserify');
 var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
 
-var polyfillFilename = 'browser-polyfill.js';
+var DEST = './';
 
 gulp.task('build', function () {
     return browserify('./polyfill.js').bundle()
-        .pipe(source(polyfillFilename))
+        .pipe(source('browser-polyfill.js'))
         .pipe(buffer())
+        .pipe(gulp.dest(DEST))
         .pipe(uglify())
-        .pipe(gulp.dest('./'));
+        .pipe(rename({ extname: '.min.js' }))
+        .pipe(gulp.dest(DEST));
 });
 
 gulp.task('clean', function (cb) {
-    del([ polyfillFilename ], cb);
+    del([
+        'browser-polyfill.js',
+        'browser-polyfill.min.js'
+    ], cb);
 });

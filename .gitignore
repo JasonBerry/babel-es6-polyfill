@@ -1,4 +1,4 @@
 node_modules
 .idea
 npm-debug.log
-browser-polyfill.js
+browser-polyfill*.js

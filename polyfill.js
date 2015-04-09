@@ -5,6 +5,6 @@ if (global._babelPolyfill) {
 }
 global._babelPolyfill = true;
 
-require("./shim");
+require("./es6-shim");
 
 require("regenerator-babel/runtime");

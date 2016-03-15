@@ -22,6 +22,7 @@
   "bugs": {
     "url": "https://github.com/JasonBerry/babel-es6-polyfill/issues"
   },
+  "main": "polyfill.js",
   "dependencies": {
     "core-js": "^0.8.1",
     "regenerator-babel": "^0.8.13-2"

@@ -6,5 +6,5 @@ if (global._babelPolyfill) {
 global._babelPolyfill = true;
 
 require("./es6-shim");
-
+require("./Promise.prototype.finally.js");
 require("regenerator-babel/runtime");

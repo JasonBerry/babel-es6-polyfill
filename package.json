@@ -25,7 +25,7 @@
   },
   "main": "polyfill.js",
   "dependencies": {
-    "core-js": "^0.8.1",
+    "core-js": "^2.4.0",
     "regenerator-babel": "^0.8.13-2"
   },
   "devDependencies": {

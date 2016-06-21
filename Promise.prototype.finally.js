@@ -12,6 +12,9 @@
     else local = self;
     // It's replaced unconditionally to preserve the expected behavior
     // in programs even if there's ever a native finally.
+    
+    local.Promise = require('core-js/es6/promise');
+
     local.Promise.prototype['finally'] = function finallyPolyfill(callback) {
         var constructor = this.constructor;
 

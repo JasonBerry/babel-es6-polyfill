@@ -1,12 +1,13 @@
 {
-  "name": "babel-es6-polyfill",
-  "version": "1.0.1",
+  "name": "babel-es6-polyfill-pinterest",
+  "version": "3.2.0",
   "description": "A pure ES6 polyfill for Babel that only includes standardised features",
   "scripts": {
     "prepublish": "gulp build",
     "postpublish": "gulp clean"
   },
-  "author": "Jason Berry <jason@thevagabond.net>",
+  "author": "Pinterest <about@pinterest.com>",
+  "contributor": "Jason Berry <jason@thevagabond.net>",
   "license": "MIT",
   "keywords": [
     "es6",
@@ -22,8 +23,9 @@
   "bugs": {
     "url": "https://github.com/JasonBerry/babel-es6-polyfill/issues"
   },
+  "main": "polyfill.js",
   "dependencies": {
-    "core-js": "^0.8.1",
+    "core-js": "^2.4.0",
     "regenerator-babel": "^0.8.13-2"
   },
   "devDependencies": {

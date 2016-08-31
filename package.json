@@ -1,7 +1,7 @@
 {
   "name": "babel-es6-polyfill",
   "version": "1.0.1",
-  "description": "A pure ES6 polyfill for Babel that only includes standardised features",
+  "description": "A pure ES6/ES2015 polyfill for Babel that only includes standardised features",
   "scripts": {
     "prepublish": "gulp build",
     "postpublish": "gulp clean"
@@ -11,6 +11,7 @@
   "keywords": [
     "es6",
     "ecmascript 6",
+    "es2015",
     "babel",
     "shim",
     "polyfill"

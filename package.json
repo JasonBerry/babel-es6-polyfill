@@ -8,6 +8,7 @@
   },
   "author": "Jason Berry <jason@thevagabond.net>",
   "license": "MIT",
+  "main": "polyfill.js",
   "keywords": [
     "es6",
     "ecmascript 6",
